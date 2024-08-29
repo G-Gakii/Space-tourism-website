@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../src/css/output.css" />
+    <link rel="stylesheet" href="../src/css/custom.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body
+    class="bg-cover bg-destinationmobile sm:bg-destinationtablet tablet lg:bg-destinationdesktop min-h-screen"
+  >
+    <nav
+      class="text-white flex justify-between md:justify-around md:h-36 md:items-center mx-4 py-6 pr-0 relative"
+    >
+      <div class="nav_brand">
+        <div class="nav_brand_container">
+          <img src="../starter-code/assets/shared/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <hr class="myline hidden lg:block" />
+      <div class="background">
+        <div class="nav_links p-4 pr-0">
+          <img
+            id="hamburger"
+            class="md:hidden pr-4 mytext"
+            src="../starter-code/assets/shared/icon-hamburger.svg"
+            alt="icon-hamburger"
+          />
+          <ul
+            id="links"
+            class="uppercase md:flex md:flex-row hidden md:items-center relative text"
+          >
+            <img
+              id="close"
+              class="md:hidden w-8 h-8 absolute right-4 mytext"
+              src="../starter-code/assets/shared/icon-close.svg"
+              alt="close icon"
+            />
+            <li
+              class="mt-24 md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="../index.html"> Home</a>
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 transition duration-500 hover:border-b mytext"
+            >
+              <a href="/starter-code/destination-moon.html"
+                ><span class="text-base font-bold me-3.5">01</span>
+                Destination</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="crew-commander.html"
+                ><span class="text-base font-bold me-3.5">02</span> Crew</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="technology-capsule.html"
+                ><span class="text-base font-bold me-3.5">03</span>
+                Technology</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <h2
+        class="uppercase w-full lg:text-3xl sm:text-xl text-base tracking-widest font-barlowCondensed text-white ml-6 sm:ml-24 mt-4"
+      >
+        <span class="me-4 font-bold">01</span> Pick your destination
+      </h2>
+
+      <div
+        class="hero text-white flex flex-col lg:flex-row lg:items-center lg:justify-around min-h-screen p-6 lg:p-16 mx-auto"
+      >
+        <div class="hero_image">
+          <img
+            class="mx-auto lg:w-96 lg:h-96 sm:w-72 sm:h-72 w-36 h-36 my-10"
+            src="./assets/destination/image-moon.webp"
+            alt="moon"
+          />
+        </div>
+        <div
+          class="hero_content text-customBlue lg:w-1/2 lg:mx-12 lg:text-start text-center"
+        >
+          <ul
+            class="flex font-barlowCondensed sm:text-base text-sm tracking-wider lg:justify-start justify-center"
+          >
+            <li
+              class="mx-4 hover:underline transition duration-500 ease-in-out"
+            >
+              <a href="destination-moon.html">Moon</a>
+            </li>
+            <li
+              class="mx-4 hover:underline transition duration-500 ease-in-out"
+            >
+              <a href="destination-mars.html">Mars</a>
+            </li>
+            <li
+              class="mx-4 hover:underline transition duration-500 ease-in-out"
+            >
+              <a href="destination-europa.html">Europa</a>
+            </li>
+            <li
+              class="mx-4 hover:underline transition duration-500 ease-in-out"
+            >
+              <a href="destination-titan.html">Titan</a>
+            </li>
+          </ul>
+
+          <div class="title text-white mx-4 font-bellefair my-8">
+            <h3 class="uppercase text-6xl sm:text-7xl lg:text-8xl mx-auto">
+              Moon
+            </h3>
+          </div>
+          <div class="about text-customBlue mx-4 my-6 font-barlow">
+            <p class="lg:text-lg sm:text-base text-sm leading-8">
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites.
+            </p>
+          </div>
+          <div class="w-full h-px bg-gray-500"></div>
+          <div
+            class="distance_hours flex flex-col sm:flex-row mx-4 lg:justify-between sm:justify-around"
+          >
+            <div class="km my-4">
+              <h4
+                class="text-customBlue uppercase my-2 text-sm tracking-wider font-barlowCondensed"
+              >
+                Avg. distance
+              </h4>
+              <p
+                class="uppercase text-xl lg:text-3xl font-bellefair text-white"
+              >
+                384,400 km
+              </p>
+            </div>
+            <div class="hours my-4">
+              <h4
+                class="text-customBlue uppercase my-2 text-sm font-barlowCondensed"
+              >
+                Est. travel time
+              </h4>
+              <p class="uppercase text-xl font-bellefair text-white">3 days</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../src/js/main.js"></script>
+  </body>
+</html>

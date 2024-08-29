@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../src/css/output.css" />
+    <link rel="stylesheet" href="../src/css/custom.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body
+    class="bg-cover bg-technologymobile sm:bg-technologytablet tablet lg:bg-techynologydesktop min-h-screen"
+  >
+    <nav
+      class="text-white flex justify-between md:justify-around md:h-36 md:items-center mx-4 py-6 pr-0 relative"
+    >
+      <div class="nav_brand">
+        <div class="nav_brand_container">
+          <img src="../starter-code/assets/shared/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <hr class="myline hidden lg:block" />
+      <div class="background">
+        <div class="nav_links p-4 pr-0">
+          <img
+            id="hamburger"
+            class="md:hidden pr-4 mytext"
+            src="../starter-code/assets/shared/icon-hamburger.svg"
+            alt="icon-hamburger"
+          />
+          <ul
+            id="links"
+            class="uppercase md:flex md:flex-row hidden md:items-center relative text"
+          >
+            <img
+              id="close"
+              class="md:hidden w-8 h-8 absolute right-4 mytext"
+              src="../starter-code/assets/shared/icon-close.svg"
+              alt="close icon"
+            />
+            <li
+              class="mt-24 md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="#"> Home</a>
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 transition duration-500 hover:border-b mytext"
+            >
+              <a href="/starter-code/destination-moon.html"
+                ><span class="text-base font-bold me-3.5">01</span>
+                Destination</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="crew-commander.html"
+                ><span class="text-base font-bold me-3.5">02</span> Crew</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="technology-capsule.html"
+                ><span class="text-base font-bold me-3.5">03</span>
+                Technology</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <h2
+        class="uppercase w-full text-white lg:text-3xl sm:text-xl text-lg sm:ml-28 sm:text-start text-center tracking-widest font-barlowCondensed"
+      >
+        <span class="me-3.5 font-bold text-gray-400">03</span> Space launch 101
+      </h2>
+      <div class="hero text-white flex flex-col justify-center lg:p-16 mx-auto">
+        <div
+          class="hero_content w-full items-center flex flex-col lg:flex-row text-customBlue"
+        >
+          <div
+            class="pagination_content text-center flex flex-col lg:flex-row lg:justify-between order-2 lg:order-1"
+          >
+            <div
+              class="hero_pagination pr-16 my-8 lg:my-0 flex justify-center lg:flex-col"
+            >
+              <p
+                class="lg:w-20 lg:h-20 sm:w-14 sm:h-14 w-10 h-10 rounded-full bg-white flex justify-center items-center text-black mb-8 mx-4 font-bellefair lg:text-3xl sm:text-2xl text-lg"
+              >
+                1
+              </p>
+              <p
+                class="lg:w-20 lg:h-20 sm:w-14 sm:h-14 w-10 h-10 rounded-full bg-blue900 flex justify-center items-center text-white border border-white mb-8 mx-4 font-bellefair lg:text-3xl sm:text-2xl text-lg"
+              >
+                2
+              </p>
+              <p
+                class="lg:w-20 lg:h-20 sm:w-14 sm:h-14 w-10 h-10 sm:text-2xl rounded-full bg-blue900 flex justify-center items-center text-white border border-white mx-4 font-bellefair lg:text-3xl text-lg"
+              >
+                3
+              </p>
+            </div>
+            <div
+              class="hero_content lg:text-start text-center text-white lg:pr-12"
+            >
+              <h2
+                class="pb-6 text-bellefair lg:text-3xl sm:text-2xl text-lg uppercase font-bellefair"
+              >
+                The terminology...
+              </h2>
+              <h3
+                class="pb-6 text-bellefair lg:text-6xl sm:text-4xl text-2xl uppercase font-bellefair"
+              >
+                Launch vehicle
+              </h3>
+              <p
+                class="text-barlow lg:text-lg sm:text-base text-sm leading-8 text-customBlue w-3/4 mx-auto lg:w-full font-barlow"
+              >
+                A launch vehicle or carrier rocket is a rocket-propelled vehicle
+                used to carry a payload from Earth's surface to space, usually
+                to Earth orbit or beyond. Our WEB-X carrier rocket is the most
+                powerful in operation. Standing 150 metres tall, it's quite an
+                awe-inspiring sight on the launch pad!
+              </p>
+            </div>
+          </div>
+
+          <div class="hero_image w-full order-1 lg:order-2 mt-16 lg:mt-0">
+            <img
+              class="lg:hidden w-full object-cover h-auto"
+              src="./assets/technology/image-launch-vehicle-landscape.jpg"
+              alt="launch vehicle"
+            />
+            <img
+              class="object-cover hidden lg:block"
+              src="./assets/technology/image-launch-vehicle-portrait.jpg"
+              alt="launch vehicle"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../src/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.outer_circle {
+  width: 244px;
+  height: 244px;
+  background-color: brown;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.outer_circle:hover {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+@media screen and (min-width: 640px) {
+  .outer_circle {
+    width: 388px;
+    height: 388px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .outer_circle {
+    width: 420px;
+    height: 420px;
+  }
+}
+.nav_links {
+  backdrop-filter: blur(20px);
+  z-index: 1;
+  background: hsla(0, 0%, 50%, 0.1);
+}
+.myline {
+  border: 0;
+  height: 2px;
+  width: 27%;
+  background-color: gray;
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+}

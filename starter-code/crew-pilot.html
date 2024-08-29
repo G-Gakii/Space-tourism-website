@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../src/css/output.css" />
+    <link rel="stylesheet" href="../src/css/custom.css" />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body
+    class="bg-cover bg-crewmobile sm:bg-crewtablet tablet lg:bg-crewdesktop min-h-screen"
+  >
+    <nav
+      class="text-white flex justify-between md:justify-around md:h-36 md:items-center mx-4 py-6 pr-0 relative"
+    >
+      <div class="nav_brand">
+        <div class="nav_brand_container">
+          <img src="../starter-code/assets/shared/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <hr class="myline hidden lg:block" />
+      <div class="background">
+        <div class="nav_links p-4 pr-0">
+          <img
+            id="hamburger"
+            class="md:hidden pr-4 mytext"
+            src="../starter-code/assets/shared/icon-hamburger.svg"
+            alt="icon-hamburger"
+          />
+          <ul
+            id="links"
+            class="uppercase md:flex md:flex-row hidden md:items-center relative text"
+          >
+            <img
+              id="close"
+              class="md:hidden w-8 h-8 absolute right-4 mytext"
+              src="../starter-code/assets/shared/icon-close.svg"
+              alt="close icon"
+            />
+            <li
+              class="mt-24 md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="../index.html"> Home</a>
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 transition duration-500 hover:border-b mytext"
+            >
+              <a href="/starter-code/destination-moon.html"
+                ><span class="text-base font-bold me-3.5">01</span>
+                Destination</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="crew-engineer.html"
+                ><span class="text-base font-bold me-3.5">02</span> Crew</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="technology-spaceport.html"
+                ><span class="text-base font-bold me-3.5">03</span>
+                Technology</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <h2
+        class="uppercase lg:text-3xl lg:ml-24 sm:ml-12 sm:text-xl text-center sm:text-start text-base font-barlowCondensed text-white tracking-widest"
+      >
+        <span class="me-4 font-bold">02</span> Meet your crew
+      </h2>
+      <div
+        class="hero text-white flex flex-col text-center lg:text-start lg:flex-row w-3/4 mx-auto mt-12"
+      >
+        <div class="hero_content flex flex-col justify-center lg:w-2/3">
+          <h2
+            class="uppercase font-bellefair lg:text-3xl sm:text-2xl text-xl text-white my-6"
+          >
+            Pilot
+          </h2>
+          <h3
+            class="uppercase font-bellefair lg:text-6xl sm:text-4xl text-2xl text-white"
+          >
+            Victor Glover
+          </h3>
+          <p
+            class="font-barlow lg:text-lg sm:text-base leading-8 text-customBlue my-6 text-sm"
+          >
+            Pilot on the first operational flight of the SpaceX Crew Dragon to
+            the International Space Station. Glover is a commander in the U.S.
+            Navy where he pilots an F/A-18.He was a crew member of Expedition
+            64, and served as a station systems flight engineer.
+          </p>
+
+          <div
+            class="dots flex justify-center lg:justify-start my-8 lg:mt-48 lg:mb-0"
+          >
+            <div class="w-2.5 h-2.5 bg-white rounded-full me-6"></div>
+            <div class="w-2.5 h-2.5 bg-gray-500 rounded-full me-6"></div>
+            <div class="w-2.5 h-2.5 bg-gray-500 rounded-full me-6"></div>
+            <div class="w-2.5 h-2.5 bg-gray-500 rounded-full me-6"></div>
+          </div>
+        </div>
+        <div class="hero_image lg:ml-6">
+          <img src="./assets/crew/image-victor-glover.webp" alt="Victor" />
+        </div>
+      </div>
+    </main>
+
+    <script src="../src/js/main.js"></script>
+  </body>
+</html>

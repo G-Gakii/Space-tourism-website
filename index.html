@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/css/output.css" />
+    <link rel="stylesheet" href="./src/css/custom.css" />
+
+    <title>Frontend Mentor | Space tourism website</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+  </head>
+  <body
+    class="bg-cover bg-mobile sm:bg-tablet lg:bg-desktop min-h-screen relative"
+  >
+    <nav
+      class="text-white flex justify-between md:justify-around md:h-36 md:items-center mx-4 py-6 pr-0 relative"
+    >
+      <div class="nav_brand">
+        <div class="nav_brand_container">
+          <img src="./starter-code/assets/shared/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <hr class="myline hidden lg:block" />
+      <div class="background">
+        <div class="nav_links p-4 pr-0">
+          <img
+            id="hamburger"
+            class="md:hidden pr-4 mytext"
+            src="./starter-code/assets/shared/icon-hamburger.svg"
+            alt="icon-hamburger"
+          />
+          <ul
+            id="links"
+            class="uppercase md:flex md:flex-row hidden md:items-center relative text"
+          >
+            <img
+              id="close"
+              class="md:hidden w-8 h-8 absolute right-4 mytext"
+              src="./starter-code/assets/shared/icon-close.svg"
+              alt="close icon"
+            />
+            <li
+              class="mt-24 md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="./index.html"> Home</a>
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 transition duration-500 hover:border-b mytext"
+            >
+              <a href="/starter-code/destination-moon.html"
+                ><span class="text-base font-bold me-3.5">01</span>
+                Destination</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 mb-4 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="/starter-code/crew-commander.html"
+                ><span class="text-base font-bold me-3.5">02</span> Crew</a
+              >
+            </li>
+            <li
+              class="md:mx-4 md:my-0 text-barlowCondensed transition duration-500 hover:border-b mytext"
+            >
+              <a href="./starter-code/crew-commander.html"
+                ><span class="text-base font-bold me-3.5">03</span>
+                Technology</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div
+        id="hero"
+        class="flex flex-col items-center min-h-screen justify-around lg:flex-row lg:justify-around lg:mt-32"
+      >
+        <div
+          class="hero_content text-customBlue sm:max-w-md lg:max-w-lg my4 text-center"
+        >
+          <h2
+            class="uppercase text-base sm:text-3xl mb-6 sm:mb-12 lg:mb-6 text-barlowCondensed"
+          >
+            So, you want to travel to
+          </h2>
+          <h3
+            class="text-white text-7xl sm:text-8xl lg:text-9xl uppercase mb-6 sm:mb-12 lg:mb-6 text-bellefair"
+          >
+            Space
+          </h3>
+          <p
+            class="text-sm sm:text-base sm:mb-12 lg:mb-6 lg:text-lg leading-6 text-barlow"
+          >
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <div class="hero_circle max-w-lg">
+          <div class="outer_circle">
+            <div
+              class="inner_circle bg-white h-36 w-36 sm:w-72 sm:h-72 lg:h-80 lg:w-80 flex justify-center items-center rounded-full"
+            >
+              <p
+                class="uppercase text-lg text-blue900 text-bellefair sm:text-3xl"
+              >
+                Explore
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
